@@ -18,9 +18,9 @@ website:
       - href: about.qmd
         text: Sobre TIC-ML
     right: 
-      icon: github
-      href: https://github.com/TIC-ML/TIC-ML.github.io/
-      aria-label:  Github
+      - icon: github
+        href: https://github.com/TIC-ML/TIC-ML.github.io/
+        aria-label:  GitHub
   sidebar:
     - id: Huelga
       title: "Huelga indefinida"
