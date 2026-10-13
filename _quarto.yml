@@ -1,11 +1,32 @@
 project:
   type: website
 
+format: 
+  html: 
+    theme:
+      - cosmo
+    toc: true
+      
 website:
   title: "TIC ML web"
   navbar:
+    search: true
     left:
       - href: index.qmd
         text: Inicio
+      - sidebar: Huelga
       - href: about.qmd
         text: Sobre TIC-ML
+    right: 
+      icon: github
+      href: https://github.com/TIC-ML/TIC-ML.github.io/
+      aria-label:  Github
+  sidebar:
+    - id: Huelga
+      title: "Huelga indefinida"
+      style: "docked"
+      background: light
+      collapse-level: 2
+      contents: 
+        - calendario.qmd
+      
